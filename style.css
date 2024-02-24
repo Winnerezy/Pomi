@@ -60,3 +60,47 @@ span{
     border-radius: 20px;
     border: none;
 }
+
+@media screen and (min-width: 376px) and (max-width: 1055px){
+    body{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        row-gap: 50px;
+    }
+
+    #header{
+        left: 5px;
+    }
+
+    #container{
+        left: 1px;
+    }
+
+    #inputs{
+        left: 15px;
+    }
+}
+
+@media screen and (max-width: 375px){
+    body{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        row-gap: 50px;
+    }
+
+    #header{
+        left: 5px;
+    }
+
+    #container{
+        left: 1px;
+        width: 300px;
+        height: 300px;
+    }
+
+    #inputs{
+        left: 15px;
+    }
+}
